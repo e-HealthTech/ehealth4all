@@ -1,6 +1,6 @@
 # Frontend Repository for the eHealth4all App
 
-Welcome to the Frontend repository for eHealth4all. This is where the magic happens for the UI of the HealthTech platform. The frontend is built with with Typescript, React, MUI(Material UI), ReactIcons for Icons and Framer Motion if there is need for animations.
+Welcome to the Frontend repository for eHealth4all. This is where the magic happens for the UI of the HealthTech platform. The frontend is built with with Typescript, React, MUI(Material UI) and Framer Motion if there is need for animations.
 
 ## Getting started
 
@@ -38,9 +38,9 @@ Contributions are welcome! To contribute to the frontend, follow these steps:
 `git commit -m "your-commit-message-here"` 
 - Push your changes to your branch.\
 `git push origin your-branch-name`
-- Check that your branch isn't behind commits in the `dev` branch:\
-`git pull origin dev`
-- If there are conflicts between your branch and the `dev` branch, rebase and commit your changes.
+- Check that your branch isn't behind commits in the `develop` branch:\
+`git pull origin develop`
+- If there are conflicts between your branch and the `develop` branch, rebase and commit your changes.
 - Submit a pull request to this repository by logging in to your github and creating a PR on the repository or simply through the VSCODE Github Pull Request Extension
 - Once you make a PR, reference the issue and request a `Reviewer` to review your code.
 
@@ -50,9 +50,6 @@ Please ensure that your code follows the existing style and conventions, and tha
   - "FIX/..' for fixes 
   - "STYLE/.." for contributions relating to styling
   - "FEAT/.." for feature implementation
-  
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Contact
 If you have any questions or comments, please feel free to contact us at mailto:iortsor@gmail.com.
