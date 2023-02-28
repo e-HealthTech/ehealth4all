@@ -1,46 +1,62 @@
-# Getting Started with Create React App
+# Frontend Repository for the eHealth4all App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Frontend repository for eHealth4all. This is where the magic happens for the UI of the HealthTech platform. The frontend is built with with Typescript, React, MUI(Material UI) and Framer Motion if there is need for animations.
 
-## Available Scripts
+## Getting started
 
-In the project directory, you can run:
+To get started, follow these steps:
 
-### `npm start`
+- Clone this repository to your local machine with 
+`git clone https://github.com/e-HealthTech/ehealth4all.git`
+- Install Node.js and npm if they are not already installed.
+- Install the project dependencies by running the command 
+`npm install`
+- cd into the file directory and open the directory in your desired code editor. You can simply enter 
+`code .` while inside the project directory.
+- Start the server by running the command 
+`npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Project Structure
+The project structure is organized as follows:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+**src**: This directory contains the source code for the frontend.\
+**api**: This directory contains the reusable functions for the API fetches.\
+**components**: This directory contains a collection of reusable components.\
+**hooks**: This directory contains reusable functions of custom hooks.\
+**pages**: This directory contains the different files for each page on the web app.\
+**routes**: This directory contains the routing for the frontend.\
+**styleGuide**: This directory contains the guide for how styles are to be applied. \
+**type**: This directory contains the types created for the project to ensure a typesafe and error-free repo.
 
-### `npm test`
+## Contributing
+Contributions are welcome! To contribute to the frontend, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Fork/clone this repository. Follow the getting started guide to do this
+- Create a new branch for your feature or bug fix.
+`git checkout -b your-branch-name`
+- Make your changes and commit them with descriptive and detailed commit messages.\
+`git commit -m "your-commit-message-here"` 
+- Push your changes to your branch.\
+`git push origin your-branch-name`
+- Check that your branch isn't behind commits in the `develop` branch:\
+`git pull origin develop`
+- If there are conflicts between your branch and the `develop` branch, rebase and commit your changes.
+- Submit a pull request to this repository by logging in to your github and creating a PR on the repository or simply through the VSCODE Github Pull Request Extension
+- Once you make a PR, reference the issue and request a `Reviewer` to review your code.
 
-### `npm run build`
+Please ensure that your code follows the existing style and conventions, and that you have added unit tests for any new functionality.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Commit messages should go like this:
+  - "FIX/..' for fixes 
+  - "STYLE/.." for contributions relating to styling
+  - "FEAT/.." for feature implementation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contact
+If you have any questions or comments, please feel free to contact us at mailto:iortsor@gmail.com.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Code of Conduct
+The Code of Conduct for this projuct can be found [HERE](https://github.com/e-HealthTech/ehealth4all/blob/master/CODE_OFCONDUCT.md)
 
-### `npm run eject`
+## License
+The License for this projuct can be found [HERE](https://github.com/e-HealthTech/ehealth4all/blob/master/LICENSE.md)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
